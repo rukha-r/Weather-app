@@ -1,0 +1,21 @@
+$body-background-color: #6a6868b1;
+$app-background-image: url('./assets/cloudy-day.gif');
+$main-background-color: #00000044;
+$search-area-background-color: #4646468e;
+$search-area-text-color: #b8b8b8;
+$location-box-bgColor: #000000a4;
+$sunny-day: url('./assets/sunny-day.gif');
+$cloudy-day: url('./assets/cloudy-day.gif');
+$rainy-day: url('./assets/rainy-day.gif');
+$snowing-day: url('./assets/snowing-day.gif');
+$hazy-day: url('./assets/hazy-day.gif');
+
+@mixin appBox {
+  text-align: center;
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: 10px 15px 25px #3a3838;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
